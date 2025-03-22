@@ -20,8 +20,8 @@ metrics.register_endpoint('/metrics')
 
 # Configuração do banco de dados
 db_host = os.getenv('DB_HOST', 'localhost')
-db_user = os.getenv('DB_USER', 'ecommerce')
-db_password = os.getenv('DB_PASSWORD', 'Pg1234')
+db_user = os.getenv('DB_USER', 'ecommere')
+db_password = os.getenv('DB_PASSWORD', 'locomaluco')
 db_name = os.getenv('DB_NAME', 'ecommerce')
 db_port = os.getenv('DB_PORT', 5432)
 
